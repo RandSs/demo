@@ -23,6 +23,19 @@ public class StudentConfig {
                     "alex.a@gmail.com",
                     21
             );
+            Student niko =   new Student(
+
+                    "Niko",
+                    "niko.a@gmail.com",
+                    35
+            );
+
+            Student raouf =   new Student(
+
+                    "Raouf",
+                    "raouf.a@gmail.com",
+                    35
+            );
             repository.saveAll(
                      List.of(mariam, alex)
             );
